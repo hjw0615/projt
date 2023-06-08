@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/imgs/배경이미지.jpg);
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.b {
+  border-right: 1px solid;
+}
+.slide_background {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.img_slid {
+  display: flex;
+  animation: slide 6s infinite;
+}
+.slide {
+  width: 670px;
+  overflow: hidden;
+}
+.img {
+  list-style: none;
+}
+img {
+  height: 500px;
+}
+.main_list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+.list {
+  padding-top: 12px;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  list-style: none;
+  color: white;
+  background-color: black;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  29% {
+    transform: translateX(0);
+  }
+  31% {
+    transform: translateX(-635px);
+  }
+  60% {
+    transform: translateX(-635px);
+  }
+  62% {
+    transform: translateX(-1300px);
+  }
+  81% {
+    transform: translateX(-1300px);
+  }
+  83% {
+    transform: translateX(-1950px);
+  }
+  99.99% {
+    transform: translateX(-1950px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.f {
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  writing-mode: horizontal-tb;
+  font-size: 40px;
+  color: orange;
+}
+.f1 {
+  left: 45%;
+}
+.f2 {
+  left: 140%;
+}
+.f3 {
+  left: 240%;
+}
+.f4 {
+  left: 340%;
+}

@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: blue;
+}
+body>h1{width: 100%; display: block; height: 50px; line-height: 50px;}
+
+body>div{position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);}
